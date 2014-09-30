@@ -1,0 +1,18 @@
+{ application
+, shoutout
+, [ {description, ""}
+  , {vsn, "1"}
+  , {registered, []}
+  , { applications
+    , [ kernel
+      , stdlib
+      , sasl
+      , lager
+      , cowboy
+      ]
+    }
+  , {env, []}
+  , {mod, {shoutout, []}}
+  , {modules, []}
+  ]
+}.

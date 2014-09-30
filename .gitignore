@@ -1,0 +1,8 @@
+_rel/
+deps/
+ebin/
+log/
+logs/
+.erlang.mk.packages*
+rebar
+relx
